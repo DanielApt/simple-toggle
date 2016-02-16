@@ -1,0 +1,45 @@
+.toggle {
+  margin-bottom: 5px;
+  display: inline-block;
+  input {
+    display: none;
+    &:checked + label {
+      background: #4CD964;
+    }
+
+    &:disabled + label {
+      opacity: 0.5;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+  }
+
+  label {
+    display: block;
+    background: $toggle-not-checked;
+    position: relative;
+    transition: all .3s;
+    font-size: 0;
+    cursor: pointer;
+
+    &:before {
+      content: '';
+      display: block;
+      background: white;
+      position: relative;
+      top: $toggle-button-offset;
+      left: $toggle-button-offset;
+      transition: all .3s;
+    }
+  }
+}
+
+.toggle + label {
+  font-weight: normal;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.toggle {
+  @include toggle-variant($toggle-width, $toggle-height);
+}

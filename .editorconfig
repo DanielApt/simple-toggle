@@ -1,0 +1,9 @@
+# EditorConfig: http://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Indentation for JS & SCSS
+[*.{js, scss}]
+indent_style = space
+indent_size = 2

@@ -1,0 +1,16 @@
+@mixin toggle-variant($width, $height) {
+  input:checked + label:before {
+    transform: translateX($width - $height);
+  }
+
+  label {
+    width: $width;
+    height: $height;
+    border-radius: $height;
+    &:before {
+      width: $height - 2 * $toggle-button-offset;
+      height: $height - 2 * $toggle-button-offset;
+      border-radius: $toggle-height;
+    }
+  }
+}
