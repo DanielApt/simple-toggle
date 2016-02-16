@@ -12,6 +12,9 @@ To get started, follow these steps:
 2. Run `gulp` in your terminal
 3. The stylesheet can be found in the `/dist` directory
 
+## Browser Support
+Chrome, Safari, FireFox, IE >= 9
+
 ## Contributing
 
 Contributions are always welcome. Please send a pull request or flag any issues.
