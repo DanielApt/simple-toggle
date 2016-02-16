@@ -7,6 +7,7 @@ HTML5 Standards Compliant
 ## Usage
 
 To get started, follow these steps:
+
 1. Run `npm install` in your terminal
 2. Run `gulp` in your terminal
 3. The stylesheet can be found in the `/dist` directory
