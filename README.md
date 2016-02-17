@@ -4,6 +4,8 @@ Style checkboxes and radio inputs as iOS style on/off toggles.
 No JavaScript needed.
 HTML5 Standards Compliant
 
+![Example of toggle in use](/images/toggle.gif)
+
 ## Usage
 
 To get started, follow these steps:
