@@ -6,7 +6,7 @@ HTML5 Standards Compliant
 
 ![Example of toggle in use](/images/toggle.gif)
 
-## Usage
+## Getting Started
 
 To get started, follow these steps:
 
@@ -14,8 +14,21 @@ To get started, follow these steps:
 2. Run `gulp` in your terminal
 3. The stylesheet can be found in the `/dist` directory
 
+## Usage
+To see `toggle` in usage, [view the example](/example/index.html)
+
+Use the following markup
+```html
+<div class="toggle">
+  <input type="checkbox" name="name" id="twitter">
+  <label for="twitter">Twitter</label><!-- this label will be hidden by the css -->
+</div>
+<label for="twitter">Twitter</label><!-- this label is visible, and is optional -->
+```
+
+
 ## Browser Support
-Chrome, Safari, FireFox, IE >= 9
+Chrome, Safari, FireFox, IE >= 9 (other browsers to be confirmed)
 
 ## Contributing
 
