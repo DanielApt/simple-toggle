@@ -5,12 +5,16 @@ var gulp = require('gulp'),
   cssnano = require('gulp-cssnano');
 
 gulp.task('default', function () {
-  return gulp.src('src/toggle.scss')
+  gulp.src('src/toggle.scss')
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(gulp.dest('dist'))
     .pipe(cssnano())
     .pipe(rename('toggle.min.css'))
-    .pipe(cssnano())
     .pipe(gulp.dest('dist'));
+
+  gulp.src('src/base.scss')
+    .pipe(sass())
+    .pipe(autoprefixer())
+    .pipe(gulp.dest('dist'))
 });

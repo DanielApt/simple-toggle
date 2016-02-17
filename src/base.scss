@@ -1,0 +1,10 @@
+@import "../node_modules/node-reset-scss/scss/base";
+
+body {
+  font-family: "San Francisco Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container {
+  width: 300px;
+  margin: 100px auto;
+}
