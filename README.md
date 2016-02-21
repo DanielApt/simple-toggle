@@ -15,7 +15,7 @@ To get started, follow these steps:
 3. The stylesheet can be found in the `/dist` directory
 
 ## Usage
-To see `toggle` in usage, [view the example](/example/index.html)
+To see `toggle` in usage, [view the example](http://danielapt.github.io/toggle/)
 
 Use the following markup
 ```html
