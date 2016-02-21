@@ -8,6 +8,16 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="toggle.css" media="screen">
+    <style>
+        #example {
+            background: #f6f6f6;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            display: inline-block;
+            padding: 20px 40px 20px 20px;
+        }
+    </style>
 </head>
 <body>
 <section class="page-header">
@@ -28,8 +38,26 @@
         No JavaScript needed.
         HTML5 Standards Compliant</p>
 
-    <p><img src="https://raw.githubusercontent.com/DanielApt/toggle/master/images/toggle.gif"
-            alt="Example of toggle in use"></p>
+    <div id="example">
+        <p><strong>Try me out!</strong></p>
+        <div class="toggle">
+            <input type="checkbox" name="setting-1" id="facebook" checked/>
+            <label for="facebook">Facebook</label>
+        </div>
+        <label for="facebook">Facebook</label><br/>
+
+        <div class="toggle">
+            <input type="checkbox" name="setting-2" id="twitter" checked/>
+            <label for="twitter">Twitter</label>
+        </div>
+        <label for="twitter">Twitter</label><br/>
+
+        <div class="toggle">
+            <input type="checkbox" name="setting-3" id="instagram"/>
+            <label for="instagram">Instagram</label>
+        </div>
+        <label for="instagram">Instagram</label>
+    </div>
 
     <h2>
         <a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true"
