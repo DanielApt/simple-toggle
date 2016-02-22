@@ -7,7 +7,12 @@
     "url": "git+https://github.com/danielapt/simple-toggle.git"
   },
   "keywords": [
+    "simple-toggle",
     "toggle",
+    "switch",
+    "checkbox",
+    "radio",
+    "input",
     "on",
     "off",
     "on-off",
