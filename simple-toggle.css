@@ -1,0 +1,46 @@
+.simple-toggle {
+  margin-bottom: 5px;
+  display: inline-block; }
+.simple-toggle input {
+  display: none; }
+.simple-toggle input:checked + label {
+  background: #4CD964; }
+.simple-toggle input:disabled + label {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed; }
+.simple-toggle label {
+  display: block;
+  background: #C7C7CC;
+  position: relative;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-size: 0;
+  cursor: pointer; }
+.simple-toggle label:before {
+  content: '';
+  display: block;
+  background: white;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+
+.simple-toggle + label {
+  font-weight: normal;
+  margin-left: 5px;
+  cursor: pointer; }
+
+.simple-toggle input:checked + label:before {
+  -webkit-transform: translateX(10px);
+  transform: translateX(10px); }
+
+.simple-toggle label {
+  width: 30px;
+  height: 20px;
+  border-radius: 20px; }
+.simple-toggle label:before {
+  width: 16px;
+  height: 16px;
+  border-radius: 20px; }
