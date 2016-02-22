@@ -1,4 +1,4 @@
-@mixin toggle-variant($width, $height) {
+@mixin simple-toggle-variant($width, $height) {
   input:checked + label:before {
     transform: translateX($width - $height);
   }
@@ -8,9 +8,9 @@
     height: $height;
     border-radius: $height;
     &:before {
-      width: $height - 2 * $toggle-button-offset;
-      height: $height - 2 * $toggle-button-offset;
-      border-radius: $toggle-height;
+      width: $height - 2 * $simple-toggle-button-offset;
+      height: $height - 2 * $simple-toggle-button-offset;
+      border-radius: $simple-toggle-height;
     }
   }
 }

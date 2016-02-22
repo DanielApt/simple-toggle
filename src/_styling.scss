@@ -1,4 +1,4 @@
-.toggle {
+.simple-toggle {
   margin-bottom: 5px;
   display: inline-block;
   input {
@@ -16,7 +16,7 @@
 
   label {
     display: block;
-    background: $toggle-not-checked;
+    background: $simple-toggle-not-checked;
     position: relative;
     transition: all .3s;
     font-size: 0;
@@ -27,19 +27,19 @@
       display: block;
       background: white;
       position: relative;
-      top: $toggle-button-offset;
-      left: $toggle-button-offset;
+      top: $simple-toggle-button-offset;
+      left: $simple-toggle-button-offset;
       transition: all .3s;
     }
   }
 }
 
-.toggle + label {
+.simple-toggle + label {
   font-weight: normal;
   margin-left: 5px;
   cursor: pointer;
 }
 
-.toggle {
-  @include toggle-variant($toggle-width, $toggle-height);
+.simple-toggle {
+  @include simple-toggle-variant($simple-toggle-width, $simple-toggle-height);
 }

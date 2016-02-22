@@ -1,10 +1,10 @@
 {
-  "name": "toggle",
+  "name": "simple-toggle",
   "version": "0.1.0",
   "description": "An iOS style on/off toggle for checkboxes and radio inputs. Created with only css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielapt/toggle.git"
+    "url": "git+https://github.com/danielapt/simple-toggle.git"
   },
   "keywords": [
     "toggle",
@@ -22,9 +22,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danielapt/toggle/issues"
+    "url": "https://github.com/danielapt/simple-toggle/issues"
   },
-  "homepage": "https://github.com/danielapt/toggle#readme",
+  "homepage": "https://github.com/danielapt/simple-toggle#readme",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",

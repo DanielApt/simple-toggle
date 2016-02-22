@@ -1,4 +1,4 @@
-# Toggle
+# simple-toggle
 
 Style checkboxes and radio inputs as iOS style on/off toggles.
 No JavaScript needed.
@@ -15,11 +15,11 @@ To get started, follow these steps:
 3. The stylesheet can be found in the `/dist` directory
 
 ## Usage
-To see `toggle` in usage, [view the example](http://danielapt.github.io/toggle/#example)
+To see `simple-toggle` in usage, [view the example](http://danielapt.github.io/simple-toggle/#example)
 
 Use the following markup
 ```html
-<div class="toggle">
+<div class="simple-toggle">
   <input type="checkbox" name="name" id="twitter">
   <label for="twitter">Twitter</label><!-- this label will be hidden by the css -->
 </div>
